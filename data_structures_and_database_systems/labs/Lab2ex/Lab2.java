@@ -9,8 +9,7 @@ class Item {
 		key=k;
 		prev=null;
 		next=null;
-	}
-	
+	}	
 }
 
 // 2) 
@@ -51,12 +50,29 @@ class LinkedList {
 	void Print() {
 		System.out.print("Contents in the linked list:[");
 		//Q1: _________
+		Item x = head;
+		while (x != null) {
+			System.out.print(x.key);
+			System.out.print(", ");
+			x = x.next;
+		}
 		System.out.println("\t]");
 	}
 	
 	//reverses the order of  items in the linked list.
 	void Reverse() {
 		//Q2: _________
+		Item rec = head;
+		Item prev = head.prev;
+		while(rec != null) {
+			Item next = rec.next;
+			rec.prev = next;
+			rec.next = prev;
+			prev = rec;
+			rec = next;
+		}
+		head = prev;
+
 	}
 	
 }
@@ -110,3 +126,7 @@ public class Lab2 {
 	}
 
 }
+
+// Q3
+// Push: L.insert(value)
+// Pop: L.delete(L.head)
