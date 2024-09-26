@@ -7,7 +7,7 @@
 
 // Change <yourStudentID> for both class and file
 
-import net.datastructures.*;
+import net.datastructures.ArrayStack;
 
 public class A1_Q4_24112456g {
     public static void main(String[] args) {
