@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "24112456g@csdoor.comp.polyu.edu.hk",
+            "port": 1521,
+            "driver": "Oracle",
+            "name": "apollo",
+            "database": "apollo",
+            "username": "\"24112456g\"@dbms",
+            "password": "pagsnntf",
+            "connectString": "ssh 24112456g@csdoor.comp.polyu.edu.hk; apollo; source /compsoft/app/oracle/dbms.bashrc; sqlplus;"
+        }
+    ]
+}
