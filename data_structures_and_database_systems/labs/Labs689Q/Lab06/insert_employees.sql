@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 
 INSERT INTO Employees VALUES 
-('Lars', 'T', 'Andersen', '123', '1955-12-10', 'Klarup', 'M', '15000',  '12');
+('Lars', 'T', 'Andersen', '123', TO_DATE('1955-12-10', 'YYYY-MM-DD'), 'Klarup', 'M', '15000',  '12');
 
 INSERT INTO Employees VALUES 
 ('Kristian', 'C', 'Bohr', '456', '1965-10-05', 'Tylstrup', 'M', '18000', '11');
