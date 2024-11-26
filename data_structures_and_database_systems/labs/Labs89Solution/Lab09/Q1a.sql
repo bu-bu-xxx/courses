@@ -1,6 +1,6 @@
 SELECT fname, lname
 FROM employees
 WHERE salary > SOME (
-	SELECT salary FROM employees em, departments 
-	WHERE departments.dname = 'ConsProd' AND departments.dnumber = em.dno
+	SELECT e.SALARY FROM employees e, departments d
+	WHERE d.dname = 'ConsProd' AND d.DNUMBER = e.dno
 );
