@@ -1,6 +1,6 @@
 # Method 1 (finetuned)
 
-[finetuned code](../assignment-lab1.ipynb)
+[finetuned code](./assignment-lab1.ipynb)
 
 1. we **finetune** based on bert model and add a classification layer after last_hidden_state.
 
@@ -29,6 +29,10 @@ the tokenizer splits the word to subwords and add the special tokens `[CLS], [SE
    
 
 # Method 2 (CoT)
+
+[calling api code](./code/gemini_call_api2.py)
+
+[CoT code](./assignment-lab1.ipynb)
 
 1. we apply **reasoning LLm models** deepseek r1 and deepseek v3, and provide 2 kind of prompt: zero-shot and few-shot. We find that deepseek r1 perform better than deepseek v3 much more and few-shot perform better than zero-shot a bit.
 
