@@ -1,0 +1,42 @@
+Task: Classify the sentiment of the truncated phrase (not the full review) into one of five categories:
+0: Negative
+1: Somewhat Negative
+2: Neutral
+3: Somewhat Positive
+4: Positive
+
+Format:
+\\label{{number}}, Sentiment: \\sentiment{{text}}
+
+Examples:
+
+Review: "The movie was a complete disaster. The plot was incoherent, and the acting was terrible."
+Truncated Phrase: "complete disaster"
+Output:
+\\label{0}, Sentiment: \\sentiment{negative}
+
+Review: "The film had a few good moments, but overall it was a bit dull."
+Truncated Phrase: "a bit dull"
+Output:
+\\label{1}, Sentiment: \\sentiment{somewhat negative}
+
+Review: "The cinematography was decent, but the story lacked depth."
+Truncated Phrase: "decent"
+Output:
+\\label{2}, Sentiment: \\sentiment{neutral}
+
+Review: "The acting was surprisingly good, though the script could have been better."
+Truncated Phrase: "surprisingly good"
+Output:
+\\label{3}, Sentiment: \\sentiment{somewhat positive}
+
+Review: "This movie was an absolute masterpiece. The performances were outstanding."
+Truncated Phrase: "absolute masterpiece"
+Output:
+\\label{4}, Sentiment: \\sentiment{positive}
+
+Instructions:
+Focus only on the truncated phrase, not the full review.
+Ignore context outside the phrase (e.g., sarcasm, hyperbole, or mixed sentiments).
+Use the labels and sentiment text exactly as formatted above.
+Think step by step, and answer based on your thinking.

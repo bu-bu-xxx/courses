@@ -11,10 +11,10 @@ class Save(object):
         assert isinstance(new_col_name, str)
         assert isinstance(labels, list)
         assert len(labels) == len(self.df)
-        self.df[new_col_name] = self.labels
+        self.df[new_col_name] = labels
         # return self.df
     
     def save_df(self, path: str):
-        self.df.to_csv(path, index=False)
+        self.df.to_csv(path, index=False, sep='\t')
         print(f"DataFrame has been saved to {path}")
         

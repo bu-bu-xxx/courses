@@ -29,7 +29,7 @@ class MoonshotAPI:
             async with semaphore:
                 completion = await asyncio.to_thread(
                     self.client.chat.completions.create,
-                    model="moonshot-v1-32k",
+                    model="moonshot-v1-8k",
                     messages=[
                         {"role": "system", "content": sys_msg},
                         {"role": "user", "content": user_msg},
