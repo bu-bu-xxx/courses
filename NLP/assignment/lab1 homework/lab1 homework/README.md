@@ -2,6 +2,8 @@ Name: ZHONG Qiaoyang
 
 NetID: 24112456g
 
+[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="zoom:10%;" />](https://github.com/bu-bu-xxx/courses/tree/master/NLP/assignment/lab1%20homework/lab1%20homework)
+
 # Method 1 (finetuned)
 
 [finetuned code](./assignment-lab1.ipynb)
