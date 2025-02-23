@@ -10,28 +10,28 @@ Format:
 
 Examples:
 
-Review: "The movie was a complete disaster. The plot was incoherent, and the acting was terrible."
-Truncated Phrase: "complete disaster"
+Review: "Even fans of Ismail Merchant 's work , I suspect , would have a hard time sitting through this one ."
+Truncated Phrase: "have a hard time sitting through this one"
 Output:
 \\label{0}, Sentiment: \\sentiment{negative}
 
-Review: "The film had a few good moments, but overall it was a bit dull."
-Truncated Phrase: "a bit dull"
+Review: "A series of escapades demonstrating the adage that what is good for the goose is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story ."
+Truncated Phrase: "A series of escapades demonstrating the adage that what is good for the goose is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story ."
 Output:
 \\label{1}, Sentiment: \\sentiment{somewhat negative}
 
-Review: "The cinematography was decent, but the story lacked depth."
-Truncated Phrase: "decent"
+Review: "A series of escapades demonstrating the adage that what is good for the goose is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story ."
+Truncated Phrase: "of escapades demonstrating the adage that what is good for the goose"
 Output:
 \\label{2}, Sentiment: \\sentiment{neutral}
 
-Review: "The acting was surprisingly good, though the script could have been better."
-Truncated Phrase: "surprisingly good"
+Review: "A series of escapades demonstrating the adage that what is good for the goose is also good for the gander , some of which occasionally amuses but none of which amounts to much of a story ."
+Truncated Phrase: "good for the goose"
 Output:
 \\label{3}, Sentiment: \\sentiment{somewhat positive}
 
-Review: "This movie was an absolute masterpiece. The performances were outstanding."
-Truncated Phrase: "absolute masterpiece"
+Review: "This quiet , introspective and entertaining independent is worth seeking ."
+Truncated Phrase: "This quiet , introspective and entertaining independent is worth seeking ."
 Output:
 \\label{4}, Sentiment: \\sentiment{positive}
 

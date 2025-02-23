@@ -1,3 +1,7 @@
+Name: ZHONG Qiaoyang
+
+NetID: 24112456g
+
 # Method 1 (finetuned)
 
 [finetuned code](./assignment-lab1.ipynb)
@@ -97,3 +101,8 @@ the tokenizer splits the word to subwords and add the special tokens `[CLS], [SE
 
 # Result
 
+We find that the CoT results get lower scores than finetuned results. I think it is because the competition answers are are not good enough.
+
+My result is [submit](./data/submit1.csv).
+
+![image-20250224003657807](./assets/image-20250224003657807.png)

@@ -27,6 +27,11 @@ class GeminiAPI:
         async def call_api(sys_msg, user_msg):
             async with semaphore:
                 retries = 3
+                # check if sys_msg is in [0, 1, 2, 3, 4]
+                if sys_msg in ["0", "1", "2", "3", "4"]:
+                    # print("111")
+                    return '\\label{' + str(sys_msg) +'}'
+                
                 for attempt in range(retries):
                     try:
                         completion = await asyncio.to_thread(
