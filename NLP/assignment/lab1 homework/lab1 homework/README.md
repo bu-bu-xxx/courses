@@ -105,6 +105,8 @@ the tokenizer splits the word to subwords and add the special tokens `[CLS], [SE
 
 We find that the CoT results get lower scores than finetuned results. I think it is because the competition answers are are not good enough.
 
-My best result is [submit](./data/submit1.csv).
+My finetuned model: [<img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" style="zoom:35%;" />](https://huggingface.co/bubulamb/lab1_finetuned_bert)
 
-![image-20250224003657807](./assets/image-20250224003657807.png)
+My best result is [submit](./data/submit7.csv).
+
+![image-20250225010909313](./assets/image-20250225010909313.png)
