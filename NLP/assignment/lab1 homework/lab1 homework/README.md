@@ -2,7 +2,12 @@ Name: ZHONG Qiaoyang
 
 NetID: 24112456g
 
-[<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="zoom:10%;" />](https://github.com/bu-bu-xxx/courses/tree/master/NLP/assignment/lab1%20homework/lab1%20homework)
+<h1 align="left">
+  <a href="https://github.com/bu-bu-xxx/courses/tree/master/NLP/assignment/lab1%20homework/lab1%20homework">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="60">
+  </a>
+</h1>
+
 
 # Method 1 (finetuned)
 
@@ -105,7 +110,7 @@ the tokenizer splits the word to subwords and add the special tokens `[CLS], [SE
 
 We find that the CoT results get lower scores than finetuned results. I think it is because the competition answers are are not good enough.
 
-My finetuned model: [<img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" style="zoom:35%;" />](https://huggingface.co/bubulamb/lab1_finetuned_bert)
+My finetuned model: [<img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width=40 />](https://huggingface.co/bubulamb/lab1_finetuned_bert)
 
 My best result is [submit](./data/submit7.csv).
 
