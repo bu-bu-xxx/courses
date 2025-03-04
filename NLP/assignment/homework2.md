@@ -50,7 +50,7 @@ Yes
 
   **Decoder output**: the annotation like  `B M M E B E S`
 
-  But we can and MLP layer and do the classification directly based on encoder embeddings, so encoder-decoder is not necessary and low efficiency.
+  
 
 * Second method
 
