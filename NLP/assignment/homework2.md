@@ -24,21 +24,25 @@ Yes.
 
 ## Q2
 
+Yes
+
 * CRF
   $$
   P(y_i|X) = \frac{1}{Z}exp(\sum^{T}_{t=1}\sum^{K}_{k=1}\lambda_tf_{trans}(y_{t-1},y_t)+\mu_tf_{state}(y_t,X))
   $$
-  **Input**: $y_t$ is the t-th labeling ( that is `B M E S`), $X$ is the seqeunce, $f$ is the feature function (conservational method is hand-craft features, like word length, word entropy, etc), $\lambda_t, \mu_t$ is learnable parameters
+  **Input**: $y_t$ is the t-th labeling ( that is `B M E S`), $X$ is the seqeunce, $f_trans$ is transition feature function, $f_state$ is the state feature function (since applying `X` directly may cause sparsity, conservational method is using hand-craft features, like word length, word entropy, prefix-suffix, etc), $\lambda_t, \mu_t$ is learnable parameters.
 
 * SVM
 
-​	**Input**: We split the sentence into a batch of words, and we choose the true word (ground truth) as positive input, and choose the random combination word as negative word.
+​	**Input**: We split the sentence into a batch of words, and we choose the true word (ground truth) as *positive input*, and choose the random combination word as *negative word*.
+
+​		The word features can be generated as hand-craft features above.
 
 ​	**Process**: We can apply SVM to classify whether the word is the real word. And we apply greedy method to segment the word sequence.
 
 ## Q3
 
-Yes, but low efficiency
+Yes
 
 * First method
 
